@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body style="background-color: rgb(238, 113, 113)">
+    <h2 style="text-align: center;">Insanity Learners Hunt Form</h2><br><br>
+    <form>
+    <label>First name</label><br>
+    <input type="text", name="fname"><br><br>
+    <label>Last name</label><br>
+    <input type="text", name="lname"><br><br>
+    <label>Gender</label><br>
+    <input type="radio", name="gender"> Male
+    <input type="radio", name="gender"> Female
+    <input type="radio", name="gender"> other<br><br>
+    <label>Email ID</label><br>
+    <input type="email", name="email"><br><br>
+    <label>UserID</label><br>
+    <input type="text", name="UserID"><br><br>
+    <label>Password</label><br>
+    <input type="password", name="password"><br><br>
+    <label>Confirm Password</label><br>
+    <input type="password", name="confirm password"><br><br>
+    <label>Mobile Number</label><br>
+    <input type="text", name="mnum", pattern="[0-9]{10}"><br><br>
+    <label>Joining Date:</label><br>
+    <input type="date", name="jdate"><br><br>
+    <label>Points</label><br>
+    <input type="number", name="points"><br><br>
+    <p>Programme</p>
+    <select>
+        <option>Select</option>
+        <option value="webdev">Web Development</option>
+        <option value="cybersecurity">Cyber Security</option>
+        <option value="DSA">Data Structure and Algorithm</option>
+    </select><br><br>
+    <p>Write about yourself</p>
+    <textarea cols="40" rows="6"></textarea>
+    <p>Terms and conditions have to be carefully read before submitting the form</p>
+    <input type="checkbox">I agree.<br><br>
+    <input type="reset" name="reset" style="background-color: rgb(210, 94, 245);">
+    <input type="submit" name="submit" style="background-color: rgb(210, 94, 245);">
+    </form>
+</body>
+</html>
